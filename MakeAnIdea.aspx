@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <link href="Content/bootstrap.css" rel="stylesheet" />
 <link href="Content/custom.css" rel="stylesheet" />
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
@@ -112,5 +113,9 @@
         </div>
     </div>
     <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" 
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
 </body>
 </html>
