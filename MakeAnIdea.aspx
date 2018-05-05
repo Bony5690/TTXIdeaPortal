@@ -36,10 +36,10 @@
       </li>
     </ul>
     <span class="navbar-text">
-      <a href="LoginPag.aspx">
-   <button class="btn btn-danger">
-           Logout
-       </button></a>
+      <a href="LoginPag.aspx" >
+       <button class="btn btn-danger">Logout</button>
+           
+       </a>
     </span>
   </div>
 </nav>
@@ -53,7 +53,7 @@
        </button>
    </div>--%>
     
-    <div class="container">
+    <div class="container move-down">
         <div class="row">
             <div class="col-12">
                 <div class="col-sm-4  offset-sm-4 text-center">
@@ -64,6 +64,9 @@
              <asp:Button ID="Button1" Class="btn btn-danger text-right" runat="server" Text="Logout" />
         </div>--%>
         
+                     
+
+                     
         <div style="text-align: center">
             <h1>Submit your Idea</h1>
         </div>
@@ -77,11 +80,31 @@
             <p>
                 <asp:Label ID="Label1" runat="server" Text="Description:"></asp:Label>
             </p>
-            <br />
+            
          </div>
         <div style="text-align: center">
             <p>
                 <textarea id="TextArea1" class="form-control"  cols="20" name="S1" rows="2"></textarea>
+
+            </p>
+        </div>
+                     <div style="text-align: center">
+                         <p>
+                             Why?</p>
+        </div>
+                     <div style="text-align: center">
+                         <p>
+                             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+
+            </p>
+        </div>
+                     <div style="text-align: center">
+                         <p>
+                             How?</p>
+        </div>
+                     <div style="text-align: center">
+                         <p>
+                             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
 
             </p>
         </div>

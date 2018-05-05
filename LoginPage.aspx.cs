@@ -23,9 +23,12 @@ namespace Website
             if(dt.Rows[0][0].ToString() == "1")
             {
                 Response.Redirect("Main.aspx");
+
+               
             }
             else
             {
+               // Page.ClientScript.RegisterStartupScript(this.GetType(), "scripts", "<script>alert('Wrong password');<script>");
                 Response.Write("Check your username and password");
 
                
